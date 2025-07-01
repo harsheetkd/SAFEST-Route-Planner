@@ -1,121 +1,169 @@
-# SAFEST-Route-Planner
-🚦 Dehradun Route Planner 🛣️
-A Streamlit-based route planning application for Dehradun, India. This app helps users find the safest and most efficient route between two locations by combining road network data with synthetic crime statistics.
+# 🚦 SAFEST Route Planner – Dehradun 🛣️
 
-📌 Features
-🗺️ Interactive map of Dehradun using Folium
-🔍 Route planning with Dijkstra and A* algorithms
-🛡️ Safety-aware routing using location-based crime data
-🏥 Emergency contacts and distance limit alerts
-📍 Location selection via dropdown or interactive map
-🧠 Caching, dynamic safety scoring, and optimized pathfinding
-🚓 Visual indication of route safety on the map
-🔧 Tech Stack
-Python 3.8+
-Streamlit
-OpenRouteService
-Folium & Streamlit-Folium
-Pandas & NumPy
-Geopy (for geocoding)
-Custom crime-weighted routing logic
-📁 Project Structure
-. ├── app.py # Main Streamlit app
+A **Streamlit-based web application** for planning the safest and most efficient routes in **Dehradun, India**. This app combines road network data with **synthetic crime statistics** to help users avoid unsafe areas.
 
-├── dehradun_crime_synthetic_data.csv # Synthetic crime dataset
+---
 
+## 📌 Features
+
+- 🗺️ **Interactive Map** using Folium
+- 📍 **Location selection** via dropdown or map click
+- 🔄 **Routing Algorithms**: Dijkstra and A* Pathfinding
+- 🛡️ **Safety-aware Routing** based on crime data
+- 🚨 **Emergency Contact Info** (Police, Ambulance, Fire)
+- 🎯 **Safety Thresholds** and distance alerts
+- ⚡ **Caching & Performance Optimizations**
+- 📈 **Dynamic Safety Scores** on route paths
+
+---
+
+## ⚙️ Tech Stack
+
+- Python 3.9+
+- Streamlit
+- OpenRouteService (ORS API)
+- Folium & Streamlit-Folium
+- Pandas & NumPy
+- Geopy (for geocoding)
+- Custom crime-weighted routing logic
+
+---
+
+## 🗂️ Project Structure
+
+```
+.
+├── app.py                       # Main Streamlit app
+├── dehradun_crime_synthetic.csv # Synthetic crime dataset
 ├── src/
+│   └── config/
+│       └── config.py            # Configuration: API keys, weights
+├── requirements.txt             # All dependencies
+└── README.md                    # Project documentation
+```
 
-│ └── config/
+---
 
-│ └── config.py # Configuration: API keys, constants, weights
+## 🔧 Setup Instructions
 
-├── requirements.txt # Dependencies
+1. **Clone the Repository**
+   ```bash
+   git clone https://github.com/your-username/dehradun-route-planner.git
+   cd dehradun-route-planner
+   ```
 
-└── README.md # This file
+2. **Create Virtual Environment (Optional)**
+   ```bash
+   python -m venv venv
+   source venv/bin/activate  # Windows: venv\Scripts\activate
+   ```
 
-✅ Requirements Python 3.9+
+3. **Install Dependencies**
+   ```bash
+   pip install -r requirements.txt
+   ```
 
-Streamlit
+4. **Set Up Configuration**
 
-OpenRouteService
+   Create or edit the file: `src/config/config.py`
 
-Folium
+   ```python
+   ORS_API_KEY = "your_openrouteservice_api_key"
 
-Pandas
+   DEFAULT_SAFETY_THRESHOLD = 70
 
-NumPy
+   EMERGENCY_CONTACTS = {
+       "police": "100",
+       "ambulance": "108",
+       "fire_station": "101",
+   }
 
-Geopy
+   MAP_DEFAULT_CENTER = [30.3165, 78.0322]  # Dehradun
 
-All listed in requirements.txt.
+   DEHRADUN_BOUNDING_BOX = {
+       "min_lat": 30.2,
+       "max_lat": 30.5,
+       "min_lon": 77.9,
+       "max_lon": 78.3,
+   }
 
-⚙️ Setup Instructions
-1. Clone the Repository
-git clone https://github.com/your-username/dehradun-route-planner.git cd dehradun-route-planner
+   CRIME_WEIGHTS = {
+       "Theft": 2,
+       "Assault": 3,
+       "Robbery": 4,
+       "Harassment": 1,
+       "Vandalism": 1,
+       "Other": 1,
+   }
+   ```
 
-2. Create a Virtual Environment (Optional)
-python -m venv venv source venv/bin/activate # On Windows: venv\Scripts\activate
+5. **Run the App**
+   ```bash
+   streamlit run app.py
+   ```
 
-3. Install Dependencies
-pip install -r requirements.tx
+---
 
-4. Add Configuration
-Edit or create the file at src/config/config.py: ORS_API_KEY = "your_openrouteservice_api_key" DEFAULT_SAFETY_THRESHOLD = 70 EMERGENCY_CONTACTS = { "police": "100", "ambulance": "108", "fire_station": "101", } MAP_DEFAULT_CENTER = [30.3165, 78.0322] # Dehradun center DEHRADUN_BOUNDING_BOX = { "min_lat": 30.2, "max_lat": 30.5, "min_lon": 77.9, "max_lon": 78.3 } CRIME_WEIGHTS = { "Theft": 2, "Assault": 3, "Robbery": 4, "Harassment": 1, "Vandalism": 1, "Other": 1 }
+## 📊 Data Overview
 
-5. Run the App
-streamlit run app.py
+- **Source**: `dehradun_crime_synthetic.csv`
+- **Fields**:
+  - `Location`: Area or neighborhood
+  - `Crime_Type`: Theft, Assault, Robbery, etc.
+- **Routing Logic**:
+  - Crime types are weighted using `CRIME_WEIGHTS` from `config.py`
+  - Unsafe areas increase path cost and are avoided in route planning
 
-📊 Data
-The app uses synthetic crime data for Dehradun (dehradun_crime_synthetic_data.csv) with the following fields:
+---
 
-Location (area/neighborhood)
+## 🧪 Sample Test Locations
 
-Crime_Type (e.g., Theft, Robbery, etc.)
+Try planning routes between:
 
-Crime types are weighted using the CRIME_WEIGHTS dictionary in config.py.
+- ISBT Dehradun
+- Rajpur Road
+- Clock Tower
+- Ballupur Chowk
 
-💡 Usage
-Enter start and end locations manually or by clicking on the map. Adjust the safety threshold and distance limit in the sidebar. The app will compute and display: Dijkstra route (blue) A route* (green) Safety score influences path selection (routes through unsafe areas are avoided).
+---
 
-📞 Emergency Contact Info
-Available in the sidebar for quick reference:
+## 📞 Emergency Numbers
 
-🚓 Police: 100
+Displayed on the app sidebar for quick access:
 
-🚑 Ambulance: 108
+- 🚓 Police: 100
+- 🚑 Ambulance: 108
+- 🔥 Fire Station: 101
 
-🔥 Fire Station: 101
+---
 
-🧪 Sample Test Locations
-Try using:
+## ✅ Example Use Cases
 
-ISBT Dehradun
+- Safer travel planning
+- Delivery route optimization
+- Emergency dispatch routing
+- Urban crime analysis
 
-Rajpur Road
+---
 
-Clock Tower
+## 🚀 Future Enhancements
 
-Ballupur Chowk
+- [x] Toggle between routing algorithms
+- [ ] Save custom/named locations
+- [ ] Add analytics (ETA, avg. safety, etc.)
+- [ ] Integrate real-time police/traffic data
+- [ ] Export route summary (PDF/JSON)
 
-📦 Example Use Cases
-Urban logistics optimization
+---
 
-Delivery route planning with safety constraints
+## 📜 License
 
-Real-time police dispatch routing
+Released under the **MIT License** – free to use, modify, and distribute.
 
-Urban planning and crime analysis visualization
+---
 
-🛠️ TODO / Enhancements
-✅ Add UI to toggle between routing algorithms
+## 🙌 Acknowledgements
 
-📍 Allow saving named locations
-
-📈 Add route analytics (ETA, average safety, etc.)
-
-🧠 Integrate live traffic or police data (future)
-
-📦 Export route summary
-
-📜 License
-This project is released under the MIT License.
+- [OpenRouteService](https://openrouteservice.org/)
+- [Streamlit](https://streamlit.io/)
+- [Folium](https://python-visualization.github.io/folium/)
