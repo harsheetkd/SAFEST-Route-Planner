@@ -1,0 +1,10 @@
+streamlit==1.29.0
+folium==0.15.0
+openrouteservice==2.3.3
+streamlit-folium==0.14.0
+python-dotenv==1.0.0
+requests==2.31.0
+geopy==2.4.0
+pandas==2.1.0
+numpy==1.26.0
+plotly==5.19.0

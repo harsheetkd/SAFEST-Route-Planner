@@ -1,0 +1,101 @@
+Case_ID,Crime_Type,Reported_Date,Location,Victim_Age,Victim_Gender,Status,Police_Station
+C00001,Drug Possession,2024-07-09,Dalanwala,12,Female,FIR Filed,Prem Nagar
+C00002,Cyber Crime,2024-08-05,Dalanwala,29,Female,Closed,Patel Nagar
+C00003,Kidnapping,2024-02-13,Clock Tower,68,Other,Reported,Patel Nagar
+C00004,Drug Possession,2024-06-10,Vasant Vihar,45,Female,Under Investigation,Patel Nagar
+C00005,Assault,2024-07-20,ISBT,28,Other,Reported,Patel Nagar
+C00006,Fraud,2024-09-26,Raipur,76,Female,Closed,Raipur
+C00007,Kidnapping,2024-12-16,Prem Nagar,28,Other,Closed,Dalanwala
+C00008,Kidnapping,2024-10-30,Rajpur Road,29,Other,FIR Filed,Vasant Vihar
+C00009,Drug Possession,2024-09-27,Raipur,61,Female,Under Investigation,Patel Nagar
+C00010,Theft,2024-08-02,Dalanwala,42,Female,FIR Filed,Prem Nagar
+C00011,Assault,2024-09-08,Rajpur Road,49,Female,Closed,Patel Nagar
+C00012,Drug Possession,2024-07-08,Rajpur Road,48,Male,Reported,Prem Nagar
+C00013,Assault,2024-10-22,Rajpur Road,10,Male,Under Investigation,Raipur
+C00014,Assault,2024-07-31,Clock Tower,20,Male,Reported,Prem Nagar
+C00015,Fraud,2024-07-26,Dalanwala,66,Other,Reported,Vasant Vihar
+C00016,Kidnapping,2024-08-24,Rajpur Road,59,Female,Under Investigation,Dalanwala
+C00017,Cyber Crime,2024-12-03,Prem Nagar,32,Other,FIR Filed,Prem Nagar
+C00018,Fraud,2024-02-22,Patel Nagar,40,Male,Reported,Prem Nagar
+C00019,Fraud,2024-10-06,Rajpur Road,51,Female,Closed,Dalanwala
+C00020,Assault,2024-08-04,Clock Tower,16,Other,Reported,Vasant Vihar
+C00021,Burglary,2024-09-08,Raipur,25,Female,Under Investigation,Patel Nagar
+C00022,Kidnapping,2024-07-06,Dalanwala,69,Other,Under Investigation,Prem Nagar
+C00023,Theft,2024-02-10,Vasant Vihar,11,Female,Under Investigation,Dalanwala
+C00024,Fraud,2024-06-05,Clock Tower,10,Male,FIR Filed,Raipur
+C00025,Cyber Crime,2024-01-15,Rajpur Road,57,Male,Reported,Dalanwala
+C00026,Burglary,2024-10-27,Dalanwala,21,Female,FIR Filed,Raipur
+C00027,Burglary,2024-03-05,Patel Nagar,78,Other,FIR Filed,Vasant Vihar
+C00028,Theft,2024-12-10,Rajpur Road,46,Male,Under Investigation,Patel Nagar
+C00029,Fraud,2024-11-22,Clock Tower,41,Male,Under Investigation,Dalanwala
+C00030,Cyber Crime,2024-01-09,ISBT,18,Male,FIR Filed,Prem Nagar
+C00031,Kidnapping,2024-12-09,Prem Nagar,28,Female,Reported,Vasant Vihar
+C00032,Murder,2024-05-08,Vasant Vihar,57,Female,Closed,Dalanwala
+C00033,Cyber Crime,2024-05-15,Raipur,12,Other,FIR Filed,Prem Nagar
+C00034,Theft,2024-03-03,Clock Tower,29,Other,Reported,Dalanwala
+C00035,Burglary,2024-05-18,Dalanwala,33,Other,Under Investigation,Raipur
+C00036,Kidnapping,2024-03-21,Vasant Vihar,63,Female,Under Investigation,Dalanwala
+C00037,Cyber Crime,2024-06-11,Vasant Vihar,42,Female,Reported,Dalanwala
+C00038,Murder,2024-10-15,Vasant Vihar,33,Other,Closed,Dalanwala
+C00039,Murder,2024-09-17,Rajpur Road,45,Other,Under Investigation,Vasant Vihar
+C00040,Assault,2024-08-18,Prem Nagar,47,Female,Under Investigation,Dalanwala
+C00041,Assault,2024-02-10,Rajpur Road,34,Other,Under Investigation,Prem Nagar
+C00042,Drug Possession,2024-01-28,Dalanwala,27,Male,Reported,Raipur
+C00043,Theft,2024-05-14,Rajpur Road,75,Female,FIR Filed,Raipur
+C00044,Fraud,2024-07-19,ISBT,63,Other,Under Investigation,Dalanwala
+C00045,Cyber Crime,2024-11-23,Prem Nagar,44,Female,FIR Filed,Vasant Vihar
+C00046,Cyber Crime,2024-09-24,Prem Nagar,70,Male,Closed,Vasant Vihar
+C00047,Fraud,2024-02-02,Dalanwala,50,Female,Under Investigation,Prem Nagar
+C00048,Drug Possession,2024-02-17,Raipur,42,Female,Under Investigation,Dalanwala
+C00049,Burglary,2024-03-02,ISBT,77,Female,Closed,Raipur
+C00050,Burglary,2024-08-03,Clock Tower,42,Female,Under Investigation,Vasant Vihar
+C00051,Drug Possession,2024-10-19,Rajpur Road,23,Male,FIR Filed,Dalanwala
+C00052,Burglary,2024-04-08,Patel Nagar,30,Female,Reported,Vasant Vihar
+C00053,Assault,2024-06-20,Rajpur Road,57,Female,FIR Filed,Vasant Vihar
+C00054,Cyber Crime,2024-12-25,Vasant Vihar,29,Other,Reported,Raipur
+C00055,Drug Possession,2024-08-01,Rajpur Road,17,Female,Reported,Patel Nagar
+C00056,Cyber Crime,2024-02-04,Clock Tower,16,Other,FIR Filed,Prem Nagar
+C00057,Fraud,2024-08-14,Rajpur Road,76,Male,FIR Filed,Prem Nagar
+C00058,Murder,2024-04-10,ISBT,26,Male,FIR Filed,Raipur
+C00059,Assault,2024-05-10,ISBT,42,Male,FIR Filed,Vasant Vihar
+C00060,Kidnapping,2024-09-13,Prem Nagar,57,Male,Closed,Dalanwala
+C00061,Assault,2024-01-05,Dalanwala,68,Other,Under Investigation,Vasant Vihar
+C00062,Drug Possession,2024-08-05,Raipur,31,Female,Reported,Raipur
+C00063,Kidnapping,2024-09-11,Patel Nagar,39,Male,FIR Filed,Prem Nagar
+C00064,Murder,2024-12-24,Vasant Vihar,47,Female,FIR Filed,Vasant Vihar
+C00065,Drug Possession,2024-10-09,Rajpur Road,60,Other,FIR Filed,Prem Nagar
+C00066,Theft,2024-07-25,Rajpur Road,63,Other,Closed,Dalanwala
+C00067,Cyber Crime,2024-01-15,Clock Tower,17,Other,FIR Filed,Prem Nagar
+C00068,Murder,2024-12-11,Dalanwala,36,Male,FIR Filed,Prem Nagar
+C00069,Cyber Crime,2024-02-11,ISBT,36,Female,FIR Filed,Patel Nagar
+C00070,Burglary,2024-06-27,Patel Nagar,30,Female,Under Investigation,Patel Nagar
+C00071,Theft,2024-03-03,Prem Nagar,39,Female,Closed,Patel Nagar
+C00072,Theft,2024-12-17,ISBT,37,Other,FIR Filed,Prem Nagar
+C00073,Murder,2024-08-18,Vasant Vihar,73,Male,Reported,Raipur
+C00074,Theft,2024-08-28,Dalanwala,78,Other,Reported,Prem Nagar
+C00075,Kidnapping,2024-02-21,Vasant Vihar,70,Other,Reported,Raipur
+C00076,Theft,2024-04-05,Raipur,57,Female,Closed,Raipur
+C00077,Cyber Crime,2024-08-09,Prem Nagar,28,Other,Closed,Patel Nagar
+C00078,Cyber Crime,2024-08-18,Raipur,13,Female,Reported,Vasant Vihar
+C00079,Drug Possession,2024-08-24,Clock Tower,44,Male,FIR Filed,Dalanwala
+C00080,Cyber Crime,2024-05-22,Vasant Vihar,73,Female,Closed,Patel Nagar
+C00081,Drug Possession,2024-06-19,Clock Tower,58,Male,Reported,Patel Nagar
+C00082,Cyber Crime,2024-01-29,Rajpur Road,26,Female,Reported,Vasant Vihar
+C00083,Kidnapping,2024-02-05,Raipur,53,Other,FIR Filed,Dalanwala
+C00084,Fraud,2024-01-13,Dalanwala,39,Other,Under Investigation,Prem Nagar
+C00085,Drug Possession,2024-06-08,Vasant Vihar,55,Male,Closed,Prem Nagar
+C00086,Assault,2024-11-22,Patel Nagar,15,Male,FIR Filed,Patel Nagar
+C00087,Burglary,2024-07-05,Prem Nagar,46,Male,Reported,Dalanwala
+C00088,Murder,2024-08-30,ISBT,33,Female,Reported,Patel Nagar
+C00089,Cyber Crime,2024-03-26,Dalanwala,55,Female,FIR Filed,Raipur
+C00090,Theft,2024-10-10,Dalanwala,62,Male,Closed,Patel Nagar
+C00091,Fraud,2024-03-06,Clock Tower,69,Other,Under Investigation,Patel Nagar
+C00092,Cyber Crime,2024-06-18,Raipur,72,Female,Under Investigation,Prem Nagar
+C00093,Theft,2024-02-14,Vasant Vihar,41,Female,Reported,Prem Nagar
+C00094,Burglary,2024-03-02,Vasant Vihar,42,Female,Closed,Prem Nagar
+C00095,Burglary,2024-05-13,Rajpur Road,76,Male,Under Investigation,Raipur
+C00096,Burglary,2024-10-10,Rajpur Road,27,Male,Closed,Prem Nagar
+C00097,Theft,2024-01-28,Prem Nagar,34,Male,Closed,Dalanwala
+C00098,Cyber Crime,2024-04-17,Clock Tower,63,Male,Reported,Vasant Vihar
+C00099,Burglary,2024-02-13,Dalanwala,67,Male,Under Investigation,Dalanwala
+C00100,Kidnapping,2024-12-05,Vasant Vihar,76,Other,FIR Filed,Dalanwala

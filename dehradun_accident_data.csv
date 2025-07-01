@@ -1,0 +1,101 @@
+Accident_ID,Date,Time,Location,Latitude,Longitude,Weather_Condition,Road_Condition,Vehicles_Involved,Casualties,Severity,Vehicle_Type,Cause
+AID0001,2024-03-11,16:45:00,Raipur,30.303435,78.028767,Foggy,Under Construction,2,0,Moderate,Scooter,Overspeeding
+AID0002,2024-04-03,04:07:00,Prem Nagar,30.30445,78.046932,Rainy,Wet,1,1,Moderate,Truck,Brake Failure
+AID0003,2024-05-08,10:15:00,Balliwala,30.329463,78.035109,Stormy,Wet,3,2,Minor,Truck,Drunk Driving
+AID0004,2024-03-01,02:35:00,Raipur,30.303268,78.03997,Foggy,Dry,1,3,Severe,Bus,Overspeeding
+AID0005,2024-03-16,01:54:00,Haridwar Bypass,30.311274,78.048358,Stormy,Dry,4,3,Severe,Car,Signal Jumping
+AID0006,2024-02-21,14:48:00,Saharanpur Chowk,30.308496,78.029218,Foggy,Wet,1,3,Severe,Scooter,Distracted Driving
+AID0007,2024-04-24,01:54:00,Saharanpur Chowk,30.304887,78.018133,Foggy,Under Construction,5,2,Severe,Truck,Brake Failure
+AID0008,2024-05-04,15:17:00,Haridwar Bypass,30.313643,78.039102,Stormy,Under Construction,3,2,Minor,Car,Poor Visibility
+AID0009,2024-04-07,07:38:00,Rajpur Road,30.326443,78.032048,Rainy,Dry,3,2,Minor,Bus,Brake Failure
+AID0010,2024-01-13,23:01:00,ISBT,30.302312,78.029882,Stormy,Wet,5,2,Severe,Auto,Distracted Driving
+AID0011,2024-04-17,13:40:00,Patel Nagar,30.299363,78.019201,Cloudy,Under Construction,1,1,Severe,Scooter,Brake Failure
+AID0012,2024-01-26,15:06:00,Raipur,30.325363,78.050246,Cloudy,Slippery,3,1,Moderate,Car,Poor Visibility
+AID0013,2024-01-01,17:45:00,Balliwala,30.298656,78.032836,Foggy,Dry,1,2,Moderate,Scooter,Signal Jumping
+AID0014,2024-02-19,21:33:00,Jakhan,30.308822,78.025935,Cloudy,Under Construction,4,1,Moderate,Bike,Signal Jumping
+AID0015,2024-04-07,18:44:00,Patel Nagar,30.33248,78.050896,Cloudy,Slippery,1,0,Moderate,Bike,Poor Visibility
+AID0016,2024-03-30,04:18:00,Balliwala,30.300206,78.044985,Rainy,Under Construction,2,0,Moderate,Auto,Drunk Driving
+AID0017,2024-01-29,18:10:00,Saharanpur Chowk,30.329482,78.019856,Sunny,Slippery,4,2,Moderate,Bus,Distracted Driving
+AID0018,2024-02-28,04:52:00,Jakhan,30.305245,78.013787,Rainy,Dry,5,3,Minor,Bike,Drunk Driving
+AID0019,2024-01-02,06:40:00,Prem Nagar,30.314815,78.027808,Stormy,Slippery,2,3,Minor,Truck,Signal Jumping
+AID0020,2024-02-28,23:24:00,ISBT,30.313475,78.03619,Stormy,Slippery,2,1,Severe,Auto,Poor Visibility
+AID0021,2024-01-05,22:12:00,Patel Nagar,30.329004,78.019282,Foggy,Dry,1,3,Severe,Truck,Drunk Driving
+AID0022,2024-01-02,14:30:00,Prem Nagar,30.309582,78.031457,Foggy,Slippery,5,2,Minor,Car,Poor Visibility
+AID0023,2024-04-15,16:33:00,ISBT,30.329868,78.018903,Stormy,Under Construction,2,0,Moderate,Scooter,Signal Jumping
+AID0024,2024-03-19,15:26:00,Prem Nagar,30.30077,78.044015,Sunny,Under Construction,4,2,Minor,Auto,Brake Failure
+AID0025,2024-04-03,23:44:00,Haridwar Bypass,30.304583,78.018222,Cloudy,Dry,3,1,Severe,Scooter,Drunk Driving
+AID0026,2024-01-10,19:27:00,Prem Nagar,30.33082,78.046007,Stormy,Slippery,1,2,Moderate,Car,Signal Jumping
+AID0027,2024-04-06,08:23:00,Clock Tower,30.304071,78.016334,Foggy,Wet,1,2,Severe,Scooter,Poor Visibility
+AID0028,2024-02-22,01:49:00,Clock Tower,30.336475,78.031432,Sunny,Slippery,4,0,Minor,Scooter,Signal Jumping
+AID0029,2024-03-16,02:37:00,ISBT,30.310584,78.018034,Sunny,Dry,2,1,Moderate,Auto,Signal Jumping
+AID0030,2024-02-01,18:05:00,Prem Nagar,30.334569,78.039038,Sunny,Slippery,1,1,Moderate,Bus,Overspeeding
+AID0031,2024-02-01,20:37:00,Patel Nagar,30.333057,78.016075,Stormy,Under Construction,3,1,Moderate,Scooter,Poor Visibility
+AID0032,2024-02-13,19:56:00,Balliwala,30.312172,78.027807,Rainy,Dry,5,3,Severe,Scooter,Distracted Driving
+AID0033,2024-04-15,21:39:00,Balliwala,30.319552,78.048471,Foggy,Slippery,4,3,Moderate,Bus,Distracted Driving
+AID0034,2024-01-10,10:30:00,Haridwar Bypass,30.332497,78.025834,Stormy,Slippery,5,2,Severe,Scooter,Poor Visibility
+AID0035,2024-04-22,23:51:00,Haridwar Bypass,30.305515,78.030735,Cloudy,Slippery,3,1,Moderate,Bike,Signal Jumping
+AID0036,2024-05-06,02:29:00,Rajpur Road,30.334236,78.051087,Sunny,Under Construction,3,1,Severe,Car,Signal Jumping
+AID0037,2024-05-10,07:28:00,ISBT,30.307355,78.018809,Stormy,Dry,4,0,Minor,Bus,Drunk Driving
+AID0038,2024-03-09,03:26:00,Patel Nagar,30.325243,78.031413,Stormy,Slippery,4,0,Moderate,Car,Drunk Driving
+AID0039,2024-04-19,09:40:00,Prem Nagar,30.3345,78.0358,Sunny,Dry,5,2,Minor,Scooter,Drunk Driving
+AID0040,2024-01-07,09:40:00,Saharanpur Chowk,30.323561,78.014257,Sunny,Wet,2,3,Minor,Auto,Distracted Driving
+AID0041,2024-04-27,16:18:00,Clock Tower,30.316419,78.04054,Stormy,Wet,5,3,Moderate,Truck,Poor Visibility
+AID0042,2024-04-24,07:36:00,Balliwala,30.306791,78.014163,Rainy,Slippery,2,2,Minor,Scooter,Drunk Driving
+AID0043,2024-02-25,19:08:00,Clock Tower,30.313932,78.027527,Sunny,Slippery,2,3,Moderate,Truck,Distracted Driving
+AID0044,2024-04-01,15:20:00,Rajpur Road,30.316584,78.05169,Sunny,Wet,2,2,Severe,Scooter,Distracted Driving
+AID0045,2024-01-09,18:27:00,Balliwala,30.315823,78.02999,Sunny,Wet,3,1,Severe,Scooter,Signal Jumping
+AID0046,2024-04-01,14:51:00,Balliwala,30.310541,78.032091,Foggy,Under Construction,5,2,Severe,Scooter,Drunk Driving
+AID0047,2024-02-18,13:57:00,Rajpur Road,30.306856,78.032619,Stormy,Under Construction,3,2,Moderate,Car,Poor Visibility
+AID0048,2024-03-27,14:28:00,Prem Nagar,30.303704,78.030514,Sunny,Under Construction,5,2,Severe,Truck,Signal Jumping
+AID0049,2024-02-01,23:06:00,ISBT,30.311403,78.030342,Sunny,Under Construction,3,3,Moderate,Car,Drunk Driving
+AID0050,2024-02-16,14:11:00,Rajpur Road,30.335194,78.041779,Foggy,Wet,4,3,Severe,Auto,Brake Failure
+AID0051,2024-02-27,22:44:00,Rajpur Road,30.31795,78.051318,Stormy,Dry,2,0,Moderate,Scooter,Drunk Driving
+AID0052,2024-05-05,08:08:00,Raipur,30.31366,78.034951,Rainy,Dry,5,2,Moderate,Truck,Poor Visibility
+AID0053,2024-03-10,09:45:00,Patel Nagar,30.326571,78.028843,Foggy,Under Construction,4,3,Moderate,Auto,Brake Failure
+AID0054,2024-01-17,05:55:00,Rajpur Road,30.309583,78.027679,Rainy,Wet,4,2,Minor,Auto,Signal Jumping
+AID0055,2024-04-24,10:43:00,ISBT,30.296587,78.018348,Rainy,Under Construction,1,2,Severe,Truck,Drunk Driving
+AID0056,2024-04-05,19:11:00,Patel Nagar,30.308516,78.024863,Foggy,Slippery,2,2,Severe,Auto,Brake Failure
+AID0057,2024-02-18,05:01:00,Clock Tower,30.32024,78.023983,Cloudy,Under Construction,1,3,Moderate,Scooter,Distracted Driving
+AID0058,2024-01-21,17:57:00,ISBT,30.31777,78.047525,Foggy,Wet,5,1,Severe,Scooter,Overspeeding
+AID0059,2024-04-09,10:13:00,ISBT,30.324045,78.022788,Stormy,Dry,3,1,Moderate,Auto,Signal Jumping
+AID0060,2024-01-13,23:47:00,Balliwala,30.307785,78.027736,Sunny,Slippery,2,1,Severe,Bus,Distracted Driving
+AID0061,2024-03-03,04:27:00,Balliwala,30.318658,78.02511,Cloudy,Under Construction,1,3,Minor,Scooter,Signal Jumping
+AID0062,2024-02-28,20:04:00,Raipur,30.307061,78.040544,Rainy,Dry,5,1,Moderate,Truck,Brake Failure
+AID0063,2024-01-25,07:48:00,Rajpur Road,30.335762,78.043637,Foggy,Wet,1,0,Severe,Truck,Signal Jumping
+AID0064,2024-01-04,01:14:00,Haridwar Bypass,30.3306,78.019072,Rainy,Wet,4,0,Severe,Car,Overspeeding
+AID0065,2024-03-08,18:02:00,Prem Nagar,30.322154,78.025188,Stormy,Wet,3,1,Minor,Car,Brake Failure
+AID0066,2024-04-01,09:02:00,Clock Tower,30.310956,78.023441,Foggy,Slippery,1,0,Severe,Truck,Brake Failure
+AID0067,2024-04-19,05:48:00,Jakhan,30.33236,78.050744,Cloudy,Slippery,1,1,Moderate,Scooter,Brake Failure
+AID0068,2024-04-15,22:07:00,Haridwar Bypass,30.331258,78.014839,Stormy,Slippery,1,0,Moderate,Auto,Poor Visibility
+AID0069,2024-01-28,06:54:00,Saharanpur Chowk,30.32862,78.033703,Foggy,Wet,5,3,Moderate,Truck,Brake Failure
+AID0070,2024-04-30,12:36:00,Saharanpur Chowk,30.297691,78.022794,Foggy,Dry,4,0,Minor,Scooter,Distracted Driving
+AID0071,2024-01-24,08:04:00,Patel Nagar,30.326716,78.040587,Cloudy,Under Construction,2,0,Minor,Auto,Brake Failure
+AID0072,2024-03-13,19:08:00,Saharanpur Chowk,30.311779,78.051776,Cloudy,Wet,4,3,Severe,Bike,Distracted Driving
+AID0073,2024-03-26,04:46:00,Prem Nagar,30.323996,78.02473,Stormy,Wet,4,0,Severe,Scooter,Overspeeding
+AID0074,2024-01-19,15:25:00,Balliwala,30.31465,78.027137,Foggy,Slippery,2,0,Severe,Truck,Brake Failure
+AID0075,2024-04-03,15:15:00,Saharanpur Chowk,30.305999,78.038747,Cloudy,Dry,1,1,Severe,Truck,Distracted Driving
+AID0076,2024-04-12,00:30:00,Prem Nagar,30.312287,78.033803,Stormy,Under Construction,1,2,Severe,Car,Overspeeding
+AID0077,2024-04-13,00:53:00,Clock Tower,30.325051,78.02084,Sunny,Dry,5,2,Minor,Auto,Drunk Driving
+AID0078,2024-02-18,11:45:00,Rajpur Road,30.299647,78.018266,Cloudy,Wet,4,0,Minor,Car,Signal Jumping
+AID0079,2024-04-06,03:56:00,Saharanpur Chowk,30.333676,78.041644,Foggy,Dry,1,2,Moderate,Car,Drunk Driving
+AID0080,2024-02-29,12:04:00,Patel Nagar,30.327977,78.017698,Cloudy,Dry,5,1,Moderate,Auto,Distracted Driving
+AID0081,2024-05-01,00:50:00,Saharanpur Chowk,30.326234,78.02422,Cloudy,Slippery,4,2,Severe,Bus,Overspeeding
+AID0082,2024-05-01,11:31:00,Prem Nagar,30.310471,78.03791,Rainy,Slippery,1,1,Severe,Bus,Brake Failure
+AID0083,2024-04-05,07:05:00,Clock Tower,30.308876,78.019715,Rainy,Wet,3,2,Severe,Auto,Poor Visibility
+AID0084,2024-02-28,23:17:00,ISBT,30.336028,78.032449,Cloudy,Wet,1,1,Severe,Car,Poor Visibility
+AID0085,2024-03-15,14:39:00,Raipur,30.307968,78.051642,Foggy,Slippery,5,2,Minor,Truck,Drunk Driving
+AID0086,2024-02-08,17:11:00,Rajpur Road,30.307485,78.041654,Stormy,Wet,1,1,Minor,Bike,Distracted Driving
+AID0087,2024-02-05,15:01:00,Haridwar Bypass,30.335737,78.039935,Rainy,Slippery,2,2,Severe,Bike,Distracted Driving
+AID0088,2024-04-08,20:52:00,Clock Tower,30.318586,78.045299,Cloudy,Wet,5,2,Severe,Car,Brake Failure
+AID0089,2024-03-17,15:39:00,Balliwala,30.315794,78.031022,Cloudy,Under Construction,1,0,Severe,Bus,Poor Visibility
+AID0090,2024-02-08,03:36:00,Raipur,30.29968,78.046527,Rainy,Under Construction,3,1,Severe,Car,Signal Jumping
+AID0091,2024-02-06,22:38:00,ISBT,30.322156,78.032681,Sunny,Under Construction,2,0,Moderate,Bus,Brake Failure
+AID0092,2024-03-02,14:54:00,Rajpur Road,30.318296,78.04066,Rainy,Under Construction,4,1,Severe,Truck,Distracted Driving
+AID0093,2024-04-14,20:42:00,Balliwala,30.297345,78.026318,Stormy,Under Construction,2,3,Severe,Scooter,Poor Visibility
+AID0094,2024-04-10,21:06:00,Balliwala,30.303626,78.024606,Sunny,Wet,4,1,Severe,Truck,Brake Failure
+AID0095,2024-04-26,17:25:00,Balliwala,30.299289,78.048791,Sunny,Dry,1,2,Moderate,Bike,Distracted Driving
+AID0096,2024-05-07,20:40:00,Clock Tower,30.306015,78.015627,Cloudy,Under Construction,4,2,Severe,Bus,Distracted Driving
+AID0097,2024-02-02,21:12:00,Saharanpur Chowk,30.318376,78.018734,Foggy,Wet,5,1,Severe,Truck,Drunk Driving
+AID0098,2024-04-27,14:20:00,Haridwar Bypass,30.299453,78.025675,Rainy,Under Construction,5,3,Moderate,Car,Distracted Driving
+AID0099,2024-03-14,17:26:00,Balliwala,30.333531,78.01425,Sunny,Dry,5,0,Moderate,Bus,Overspeeding
+AID0100,2024-03-07,16:39:00,Jakhan,30.334753,78.049925,Rainy,Under Construction,5,2,Minor,Car,Drunk Driving
